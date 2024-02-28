@@ -1,0 +1,46 @@
+.btn {
+  width: 231px;
+  height: 66px;
+  flex-shrink: 0;
+  border-radius: 11px;
+  background: #73d677;
+  box-shadow: 0px -9px 0px 0px rgba(0, 0, 0, 0.18) inset;
+  border: none;
+  cursor: pointer;
+
+  color: #212121;
+  text-align: center;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.btn:hover {
+  background: rgba(94, 175, 98, 1);
+  box-shadow: 0px -9px 0px 0px #73d677 inset;
+  transition: box-shadow 0.3s ease-in-out;
+}
+@media (max-width: 725px) {
+  .btn {
+    width: 312.8px;
+    height: 55.11px;
+  }
+}
+
+.btnError {
+  width: 231px;
+  height: 66px;
+  flex-shrink: 0;
+  border-radius: 11px;
+  background: #f2cb07;
+  box-shadow: inset 0px -9px 0px 0px rgba(0, 0, 0, 0.18);
+  border: none;
+  cursor: pointer;
+
+  color: #212121;
+  text-align: center;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

@@ -1,0 +1,32 @@
+footer {
+  margin-top: -54px;
+}
+.wrapper_footer {
+  max-width: 1125px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.xardcod1 {
+  display: none;
+}
+.container_textFooter {
+  font-weight: 700;
+  font-size: 18px;
+  color: #212121;
+}
+@media (max-width: 725px) {
+	.container_textFooter {
+		font-size: 12px;
+	}
+  .wrapper_footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .xardcod1 {
+    display: block;
+  }
+  .xardcod2 {
+    display: none;
+  }
+}

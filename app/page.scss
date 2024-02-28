@@ -1,0 +1,83 @@
+.main_home {
+  // display: flex;
+  background: linear-gradient(180deg, #f5db13 0%, #f2b807 100%);
+  margin-top: 93px;
+  height: 100vh;
+}
+
+.wrapper_homePage {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  // margin-top: 48px;
+  // margin-bottom: 184px;
+}
+
+.mane_text {
+  color: #000;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4px;
+  width: 506px;
+}
+
+.left_side {
+  display: flex;
+  flex-direction: column;
+  margin-left: 156px;
+  gap: 64px;
+}
+
+.container_Pikachu,
+.container_Pikachu2 {
+  display: flex;
+  justify-content: center;
+}
+.container_Pikachu2 {
+  display: none;
+}
+@media (max-width: 1500px) {
+  .Pikachu {
+    width: 600px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .Pikachu {
+    width: 400px;
+  }
+  .left_side {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .Pikachu {
+    width: 375px;
+  }
+  .left_side {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 725px) {
+  .Pikachu {
+    width: 375px;
+  }
+  .left_side {
+    margin-left: 0px;
+    align-items: center;
+  }
+  .wrapper_homePage {
+    display: block;
+  }
+  .container_Pikachu2 {
+    display: flex;
+  }
+  .container_Pikachu {
+    display: none;
+  }
+}

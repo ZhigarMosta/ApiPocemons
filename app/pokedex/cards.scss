@@ -1,0 +1,85 @@
+.input {
+  width: 1088px;
+  height: 53px;
+  border-radius: 40px;
+  background: #f2f2f2;
+  box-shadow: 4px 4px 16px 0px rgba(1, 28, 64, 0.2);
+  border: none;
+  color: rgba(33, 33, 33, 0.8);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 31px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  margin-top: 34px;
+}
+
+.input:active,
+.input:focus {
+  outline: none;
+}
+
+.contText {
+  text-align: center;
+  font-size: 35px;
+  margin: 0 auto;
+  margin-top: 173px;
+}
+
+.wrapper_container {
+  display: flex;
+  justify-content: center;
+}
+
+.contaier {
+  width: 100%;
+}
+
+.wrapper_card {
+  max-width: 1135px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 93px;
+}
+
+.textCard {
+  color: #000;
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3px;
+  margin-top: -5px;
+}
+
+.wrapper_input {
+  display: flex;
+  align-items: center;
+  padding-left: 31px;
+  padding-right: 19px;
+}
+
+.wrapper_btnPage {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  max-width: 1135px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.btn_page {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #212121;
+}

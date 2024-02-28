@@ -1,0 +1,291 @@
+.modal {
+  z-index: 3;
+  border: 2px solid #000;
+  border-radius: 16px;
+  background: #fff;
+  position: fixed;
+  min-width: 800px;
+  min-height: 371px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  background-color: #505050;
+}
+
+.close {
+  position: absolute;
+  height: 32px;
+  top: -50px;
+  width: 32px;
+  left: 96%;
+  background-image: url("../../img/closeIcon.svg");
+}
+
+.img_modal {
+  width: 500px;
+}
+.wrapper_modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba($color: #505050, $alpha: 0.8);
+  z-index: 2;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.imgSide {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 342px;
+  height: 349px;
+  justify-content: end;
+}
+
+.imgSide img {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.btns {
+  display: flex;
+  width: 108px;
+  justify-content: space-between;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.mtype_1 {
+  font-size: 12px;
+  margin: 0;
+  color: #212121;
+  font-weight: normal;
+  background-color: #73d677;
+  padding: 3px 10px;
+  border-radius: 11px;
+  margin-right: 13px;
+  box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.18);
+}
+
+.mtype_2 {
+  font-size: 12px;
+  margin: 0;
+  color: #212121;
+  font-weight: normal;
+  background-color: #07d6f2;
+  padding: 3px 10px;
+  border-radius: 11px;
+  box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.18);
+}
+
+.discSide {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #505050;
+}
+
+.up {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 420px;
+  align-items: end;
+  margin-bottom: 25px;
+}
+
+.up p {
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+  color: #fdfdfd;
+}
+
+.gen {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.gen p {
+  margin: 0;
+  font-size: 24px;
+  font-weight: normal;
+  color: #fdfdfd;
+}
+
+.order {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000;
+  border-radius: 100%;
+  border: none;
+  background-color: #f2cb07;
+  padding: 12px 20px;
+}
+
+.order p {
+  color: #000;
+}
+
+.abils {
+  width: 264px;
+  height: 60px;
+  background-color: #fff;
+  padding-top: 15px;
+  margin-bottom: 22px;
+  border-radius: 8px;
+}
+
+.abils p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000;
+  margin-left: 28px;
+}
+
+.points {
+  width: 400px;
+  height: 78px;
+  padding-top: 20px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 21px;
+}
+
+.hp {
+  width: 168px;
+}
+
+.hp div {
+  background-color: #64d368;
+  height: 5px;
+  border-radius: 8px;
+}
+
+.exp div {
+  background-color: #f5db13;
+  height: 5px;
+  border-radius: 8px;
+}
+
+.pointsStyle {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.mstats {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mstat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fdfdfd;
+  border-radius: 8px;
+  padding: 8px 20px;
+}
+
+.mstat p {
+  margin: 0;
+  text-align: center;
+  font-size: 12px;
+  color: #4b4b4b;
+}
+
+.num {
+  margin: 0;
+  text-align: center;
+  font-size: 12px;
+  color: #212121;
+  font-weight: bold;
+  padding: 12px 12px;
+  border-radius: 100%;
+  background-color: inherit;
+  border: 4px solid #212121;
+}
+
+@media (max-width: 840px) {
+  .modal {
+    min-width: 100%;
+    margin-left: 10px;
+    padding-right: 10px;
+  }
+  .img_modal {
+    width: 340px;
+  }
+  .imgSide {
+    width: 50%;
+  }
+  .up {
+    width: 100%;
+  }
+  .points {
+    width: 100%;
+  }
+  .mstat {
+    padding: 4px 10px;
+  }
+  .close {
+    top: 5px;
+    left: 5px;
+  }
+}
+
+@media (max-width: 630px) {
+  .flex {
+    flex-direction: column;
+  }
+  .modal {
+    min-height: auto;
+    top: 100px;
+  }
+  .imgSide {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .up {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 375px) {
+  .modal {
+    min-width: 375px;
+    min-height: 100vh;
+    top: 90px;
+    margin-left: 0;
+    border-radius: 0;
+    padding-right: 0;
+  }
+
+  .img_modal {
+    width: 340px;
+  }
+  .abils, .up, .points, .mstats {
+    width: 100%;
+  }
+}
